@@ -4,21 +4,69 @@
     <title>熊棋杀局 · 每日一题 — 2026年8月22日</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="熊棋杀局：连将两步杀。">
+    <meta name="description" content="熊棋杀局・今日一题:连将两步杀。 — 2026年8月22日">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://shaju.xiongqi.page/c6506fc6555a84efcfcbf903f5576683fa35906099c0a592145dd56c6c90c76f/">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <meta property="og:type" content="article">
+    <meta property="og:site_name" content="熊棋杀局 · 每日一题">
     <meta property="og:title" content="熊棋杀局 · 每日一题 — 2026年8月22日">
-    <meta property="og:description" content="熊棋杀局：连将两步杀。">
+    <meta property="og:description" content="熊棋杀局・今日一题:连将两步杀。 — 2026年8月22日">
     <meta property="og:url" content="https://shaju.xiongqi.page/c6506fc6555a84efcfcbf903f5576683fa35906099c0a592145dd56c6c90c76f/">
+    <meta property="og:locale" content="zh_CN">
     <meta property="og:image" content="https://shaju.xiongqi.page/c6506fc6555a84efcfcbf903f5576683fa35906099c0a592145dd56c6c90c76f/diagram.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="熊棋杀局 · 每日一题 — 2026年8月22日">
+    <meta name="twitter:description" content="熊棋杀局・今日一题:连将两步杀。 — 2026年8月22日">
+    <meta name="twitter:image" content="https://shaju.xiongqi.page/c6506fc6555a84efcfcbf903f5576683fa35906099c0a592145dd56c6c90c76f/diagram.webp">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id": "https://shaju.xiongqi.page/c6506fc6555a84efcfcbf903f5576683fa35906099c0a592145dd56c6c90c76f/#puzzle",
+      "headline": "杀局 — 2026年8月22日",
+      "description": "熊棋杀局・今日一题:连将两步杀。 — 2026年8月22日",
+      "url": "https://shaju.xiongqi.page/c6506fc6555a84efcfcbf903f5576683fa35906099c0a592145dd56c6c90c76f/",
+      "datePublished": "2026-08-22",
+      "inLanguage": "zh",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://shaju.xiongqi.page/c6506fc6555a84efcfcbf903f5576683fa35906099c0a592145dd56c6c90c76f/diagram.webp",
+        "width": 1200,
+        "height": 1200
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Sashité",
+        "url": "https://sashite.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Sashité",
+        "url": "https://sashite.com/"
+      },
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "熊棋杀局 · 每日一题",
+        "url": "https://shaju.xiongqi.page/"
+      },
+      "about": {
+        "@type": "Game",
+        "name": "熊棋",
+        "url": "https://zh.xiongqi.page/"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://shaju.xiongqi.page/c6506fc6555a84efcfcbf903f5576683fa35906099c0a592145dd56c6c90c76f/"
+      }
+    }
+    </script>
     <style>
       :root {
         color-scheme: light dark;
-        --bg: #fdf6d8; --fg: #2a2410; --muted: #77683a; --accent: #8a6b00; --surface: #f5ebbc; --border: #e2d391;
+        --bg: #fdf6d8; --fg: #2a2410; --muted: #77683a; --accent: #7d6100; --surface: #f5ebbc; --border: #e2d391;
       }
       @media (prefers-color-scheme: dark) {
         :root {
@@ -39,6 +87,21 @@
       h1 { margin: 0 0 1rem; font-size: 2rem; line-height: 1.3; }
       a { color: var(--accent); }
       a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+      /* The skip-link — the family's pattern (lot 2, retours 2026-08-22):
+         parked above the viewport, revealed on keyboard focus, first in
+         the tab order. */
+      .skip-link {
+        position: absolute;
+        top: -100%;
+        left: 0;
+        padding: .5em 1em;
+        background-color: var(--bg);
+        z-index: 200;
+      }
+      .skip-link:focus {
+        top: 0;
+      }
 
       /* ── Chrome band — the family convention (retours 2026-08-22):
          the app's fluid grid (one square = a tenth of the viewport's
@@ -88,10 +151,16 @@
         max-height: none;
         margin: 0;
       }
-      body > header > a {
+      body > header > aside {
         position: absolute;
         top: 0;
         right: 0;
+        height: var(--chrome-square);
+        display: flex;
+        align-items: center;
+        z-index: 100;
+      }
+      body > header > aside > a {
         display: inline-flex;
         align-items: center;
         gap: calc(var(--chrome-square) / 8);
@@ -107,10 +176,9 @@
         font-weight: 600;
         white-space: nowrap;
         text-decoration: none;
-        z-index: 100;
         transition: border-color 0.25s;
       }
-      body > header > a > svg {
+      body > header > aside > a > svg {
         width: calc(var(--chrome-square) / 1.6);
         height: calc(var(--chrome-square) / 1.6);
         flex: none;
@@ -120,9 +188,9 @@
         stroke-linecap: round;
         stroke-linejoin: round;
       }
-      body > header > a:hover,
-      body > header > a:active,
-      body > header > a:focus-visible {
+      body > header > aside > a:hover,
+      body > header > aside > a:active,
+      body > header > aside > a:focus-visible {
         border-color: var(--border);
       }
 
@@ -144,6 +212,18 @@
         overflow-x: auto;
         font-size: .85rem;
       }
+      /* The solution, folded shut — a spoiler is exactly what <details>
+         is for: closed by print and by every first paint, opened by one
+         gesture, no script anywhere. */
+      details {
+        margin: 2rem 0;
+        padding: .75rem 1rem;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 0.5rem;
+      }
+      details summary { cursor: pointer; font-weight: 600; }
+      details p { margin: .75rem 0 0; }
       ul.puzzles { list-style: none; margin: 0; padding: 0; }
       ul.puzzles li { border-bottom: 1px solid var(--border); }
       ul.puzzles a { display: block; padding: .5rem 0; text-decoration: none; }
@@ -160,11 +240,14 @@
         color: var(--muted);
       }
       @media print {
-        body > header > a { display: none; }
+        .skip-link { display: none; }
+        body > header > aside { display: none; }
       }
     </style>
   </head>
   <body>
+    <a class="skip-link" href="#content">跳到内容</a>
+    
     <header>
       <nav>
         <a href="https://xiongqi.page/">
@@ -172,9 +255,11 @@
         </a>
       </nav>
     
-      <a href="https://play.xiongqi.page/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m11 19-6-6"/><path d="m5 21-2-2"/><path d="m8 16-4 4"/><path d="M9.5 17.5 21 6V3h-3L6.5 14.5"/></svg>立即开始</a>
+      <aside aria-label="操作">
+        <a href="https://play.xiongqi.page/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m11 19-6-6"/><path d="m5 21-2-2"/><path d="m8 16-4 4"/><path d="M9.5 17.5 21 6V3h-3L6.5 14.5"/></svg>立即开始</a>
+      </aside>
     </header>
-    <main>
+    <main id="content">
       <p><a href="/">← 返回列表</a></p>
       <h1>杀局 — 2026年8月22日</h1>
       <p>熊棋杀局：连将两步杀。</p>
@@ -184,12 +269,17 @@
       </figure>
       <p class="muted"><a href="https://sashite.dev/specs/feen/1.0.0/">FEEN</a></p>
       <pre><code>6g^1/7+s/5S2/5E2/8/8/8/4G^3 7s2b2n2re/7S2B2N2R C/c</code></pre>
+      <details>
+        <summary>答案</summary>
+        <p>首着:f5-e7。</p>
+      </details>
       <nav class="pager">
-      <a href="/356851093efc7fb04c12531fbbb5f419e3ff8854151eb10b41b8faf460988cdd/" rel="prev">← 2026年8月21日</a>
+      <a href="/356851093efc7fb04c12531fbbb5f419e3ff8854151eb10b41b8faf460988cdd/" rel="prev" aria-label="上一题 — 2026年8月21日">← 2026年8月21日</a>
+      <a href="/cf868723a399998401e54657c8072cf7229814eed6c1154cd0d603e9e2b7b564/" rel="next" aria-label="下一题 — 2026年8月23日">2026年8月23日 →</a>
     </nav>
     </main>
     <footer>
-      <p><a href="https://bsky.app/profile/shaju.xiongqi.page" rel="me">在 Bluesky 上关注</a> · <a href="https://sashite.com/">Sashité</a></p>
+      <p><a href="https://bsky.app/profile/shaju.xiongqi.page" rel="me">在 Bluesky 上关注</a> · <a href="https://zh.xiongqi.page/">熊棋规则</a> · <a href="https://sashite.com/">Sashité</a></p>
     </footer>
   </body>
 </html>
