@@ -1,0 +1,1 @@
+import{u as e}from"./DZHZ9ILZ.js";import{t}from"./BAxj1MO-.js";import{n}from"./CSLHGttL.js";import{t as r}from"./vf1GOzS0.js";import{t as i}from"./CXWeAuHd.js";async function a(){let a=n;a&&(await i(),e.isAuthenticated&&t.start({selfVariant:a.variant,opponentVariant:a.variant,timeControl:r.byoyomi}))}export{a as t};

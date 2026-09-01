@@ -1,0 +1,1 @@
+import{I as e,lt as t,tt as n,ut as r}from"../chunks/CTafDN28.js";import"../chunks/xihTtKlq.js";import{t as i}from"../chunks/4Z4L7y50.js";import{t as a}from"../chunks/BqZh3PTL.js";function o(o,s){r(s,!0);let c=n(()=>i.params.npub??``);a(o,{get npub(){return e(c)},kind:`following`}),t()}export{o as component};

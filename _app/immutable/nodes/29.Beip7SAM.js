@@ -1,0 +1,1 @@
+import{U as e,lt as t,ut as n}from"../chunks/CTafDN28.js";import{l as r,n as i}from"../chunks/BBoIzdZy.js";import"../chunks/xihTtKlq.js";import"../chunks/BzexsR7z.js";import{n as a}from"../chunks/DzysjuKP2.js";function o(o,s){n(s,!0),e(()=>{a(),i(r(`/~/composer/objective`),{replaceState:!0})}),t()}export{o as component};
